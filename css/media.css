@@ -1,0 +1,58 @@
+/*@media only screen and (orientation: landscape) {*/
+    /*html, body {*/
+        /*font-size: 2vw;*/
+    /*}*/
+/*}*/
+
+/*@media only screen and (orientation: portrait) {*/
+    /*html, body {*/
+        /*font-size: 2vh;*/
+    /*}*/
+/*}*/
+
+
+/* ipad and above */
+@media only screen and (min-width: 761px) {
+    /*#follow-label {*/
+        /*position: relative;*/
+        /*top: 5px;*/
+    /*}*/
+
+    .contact-icon {
+        width: 50px !important;
+        height: 50px !important;
+        margin: 0 20px 0 0 !important;
+    }
+
+    .body-content {
+        padding: 90px 15%;
+        margin-bottom: 40px;
+    }
+
+    #contact-content {
+        margin-top: 20px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .navbar-brand img {
+        margin-left: 0;
+    }
+}
+
+
+
+@media only screen and (max-width: 760px) {
+    .carousel-wrapper {
+        width: 100% !important;
+    }
+
+    .hidden-description {
+        display: block !important;
+    }
+
+}
+
